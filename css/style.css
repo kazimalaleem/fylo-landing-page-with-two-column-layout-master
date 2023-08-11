@@ -1,0 +1,454 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 80px;
+    height: auto;
+}
+
+.logo-name {
+    display: flex;
+}
+
+.logo-name ul {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+.fylo {
+    display: flex;
+    padding: 10px;
+    flex-direction: column-reverse;
+}
+
+.banner {
+    margin-top: 50px;
+}
+
+.fylo-title {
+    text-align: center;
+
+}
+
+.fylo-title h1 {
+    font-size: 22px;
+    line-height: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: hsl(243, 87%, 12%);
+}
+
+.fylo-title p {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.input {
+    display: grid;
+    padding: 9px 0px 9px 0px;
+    background-color: white;
+}
+
+.email_input {
+    margin-bottom: 10px;
+    padding: 9px 0px 9px 10px;
+    border-radius: 4px;
+}
+
+#submit {
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: 0px 2px 3px 0.2px rgb(151, 151, 151);
+    background-color: hsl(224, 93%, 58%);
+    padding: 9px 0px 9px 0px;
+}
+
+.flyo-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.flyo-title h2 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: hsl(243, 87%, 12%);
+}
+
+.flyo-title p {
+    font-size: 15px;
+    line-height: 26px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    padding: 12px;
+    color: hsl(238, 22%, 44%);
+}
+
+.fylo-layout-master a {
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+.fylo-layout-master a span {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+    color: hsl(170, 45%, 43%);
+}
+
+.flyo-landing {
+    box-shadow: 0px 0px 7px 0.7px rgb(199, 199, 199);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.flyo-landing p {
+    padding: 0px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+.pain {
+    padding-left: 7px;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.pain p {
+    font-size: 13px;
+    padding: 0;
+}
+
+
+.banner img {
+    width: 300px;
+}
+.flyo-page{
+    background-color:  hsl(238, 22%, 44%);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: hsl(0, 67%, 98%);
+}
+.flyo-with h3{
+    font-size: 20px;
+    text-align: center;
+}
+.flyo-with p{
+    font-size: 15px;
+    padding: 13px;  
+    text-align: center;
+    line-height: 20px;
+    color: whitesmoke;
+}
+.flyo-text{
+    display: grid;
+}
+input{
+    padding: 9px 0px 9px 10px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+button{
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: hsl(224, 93%, 58%);
+    padding: 9px 0px 9px 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+/* footer */
+
+.flyo-footer{
+    background-color: hsl(243, 87%, 12%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.flyo-footer svg{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.phone ul{ 
+    padding-left: 30px;
+    line-height: 30px;
+    list-style: none;
+    padding-top: 20px;
+}
+.flyo-footer img{ 
+    padding-right: 10px;
+}
+.flyo-namers ul li{
+    padding-left: 30px;
+    line-height: 30px;
+}
+.flyo-namer{
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.flyo-namer ul{
+list-style: none;   
+line-height: 30px;
+}
+.flyo-img{
+    text-align: center;
+    gap: 20px;
+}
+.flyo-img .fa-brands{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.phone ul li:hover {
+   color: hsl(238, 22%, 44%);
+}
+.flyo-footer img:hover {
+  color: hsl(238, 22%, 44%);
+}
+.flyo-namers ul li:hover{
+   color: hsl(238, 22%, 44%);
+}
+.flyo-namer ul li:hover{
+   color:  hsl(238, 22%, 44%);
+}
+.flyo-img .fa-brands:hover{
+    color: hsl(238, 22%, 44%);
+    border: 1px solid hsl(238, 22%, 44%);
+
+}
+
+@media(min-width:1024px){
+    nav{
+        padding: 30px;
+    }
+    .logo img{
+        max-width: 200px;
+    }
+    .logo-name ul{
+        font-size: 19px;
+        gap: 50px;
+    }
+    .fylo{
+        display: flex;
+        flex-direction:row;
+        margin-top: 30px;
+    }
+    .fylo-title {
+        text-align: center;
+        padding-right: 80px;
+    }
+    .fylo-title h1 {
+        font-size: 33px;
+        padding: 20px;
+        display: flex;
+        text-align: left;
+    }
+    .fylo-title p {
+        font-size: 16px;
+        text-align: left;
+        padding: 20px;
+    }
+    .banner img{
+        width: 400px;
+    }
+    .input {
+        display: inline;
+        padding: 0px;
+    }
+    .email_input {
+        margin-bottom: 10px;
+        padding: 10px 124px 10px 18px;
+        border-radius: 4px;
+        margin-left: 0px;
+        border: 1px solid black;
+    }
+    #submit {
+        cursor: pointer;
+        padding: 10px 30px 10px 30px;
+        margin-left: -12px;
+    }
+    #submit:hover{
+    background-color: hsla(224, 93%, 58%, 0.726);
+    }
+    .flyo-content {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        background-image: url(../images/bg-curve-desktop.svg);
+        width: 100%;
+        background-color: hsl(240, 80%, 98%);
+        background-repeat: no-repeat;
+    }
+    .flyo-title h2 {
+        font-size: 24px;
+        text-align: left;
+        padding-top: 90px;
+        padding: 20px;
+       
+    }
+    .flyo-title p {
+        font-size: 15px;
+        padding: 20px;
+        line-height: 27px;
+    }
+
+    .flyo-landing {
+        box-shadow: 0px 0px 7px 0.7px rgb(199, 199, 199);
+        padding: 15px;
+        border-radius: 8px;
+        margin-left: 30px;
+        margin-right: 145px;
+        margin-bottom: 40px;
+        margin-top: 55px;
+    }
+    .image img{
+        border-radius: 20px;
+    }
+    .image .Founder{
+        padding: 0px;
+    }
+    .flyo-page {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .flyo-with h3 {
+        font-size: 24px;
+        text-align: left;
+        padding: 20px 0px 8px 20px;
+        
+    }
+    .flyo-with p {
+        font-size: 15px;
+        padding: 17px;
+        text-align: left;
+        margin-right: 153px;
+    }
+    .flyo-two{
+        text-align: center;
+    align-items: center;
+    display: flex;
+    }
+    input {
+        padding: 11px 178px 11px 13px;
+        margin-left: 14px;
+        margin-right: 16px;
+    }
+    button {
+        cursor: pointer;
+        padding: 9px 0px 9px 0px;
+        margin-left: 13px;
+        margin-right: 189px;
+        margin-top: 15px;
+    }
+    .flyo-footer svg {
+       margin-top: 40px;
+    }
+    .flyo-footer-lander {
+       display: grid;
+       grid-template-columns: repeat(4, 255px);
+       align-items: baseline;
+       margin-top: 50px;
+       margin-bottom: 60px;
+    }
+    .flyo-namers ul{
+        list-style: none;
+
+    }
+    .phone ul li:hover{
+        cursor: pointer;
+    }
+    .flyo-namers ul li:hover{
+        cursor: pointer;
+    }
+    .flyo-namer ul li:hover{
+        cursor: pointer;
+    }
+    .flyo-img .fa-brands:hover{
+        cursor: pointer;
+    }
+}
+@media (min-width:1333px){
+    .flyo-landing {
+        box-shadow: 0px 0px 7px 0.7px rgb(199, 199, 199);
+        padding: 15px;
+        border-radius: 8px;
+        margin-left: 30px;
+        margin-right: 479px;
+        margin-bottom: 48px;
+        margin-top: 55px;
+    }
+}
+@media (min-width:2560px){
+    .fylo {
+       padding-left: 500px;
+    }
+    .flyo-content {
+        padding-left: 500px;
+    }
+    .flyo-landing {
+        margin-left: 30px;
+        margin-right: 1152px;
+    }
+    .flyo-page {
+        padding-left: 500px;
+    }
+    .flyo-footer {
+        padding-left: 500px;
+    }
+}
